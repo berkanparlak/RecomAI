@@ -1,0 +1,193 @@
+  * {
+    background-color: rgb(0, 0, 0);
+  }
+  nav {
+  background-color: #000000;
+}
+a{
+  text-decoration: none;
+}
+li {
+  display: inline-block;
+  color: white;
+
+}
+a:hover {
+  color: #d71092;
+}
+.navbar {
+  position: fixed; /* Navbar'ı sabit konuma getir */
+  top: 0; /* Sayfanın en üstünde */
+  left: 0; /* Sayfanın solunda */
+  width: 100%; /* Genişlik */
+  background-color: #333; /* Arkaplan rengi */
+  padding: 10px 0; /* Yatay ve dikey dolgu */
+  background: black;
+}
+.navImg{
+position: absolute;
+background: none;
+height: 100px;
+width: 200px;
+margin-top: -40px;
+margin-left:-900px;
+}
+.navButton {  
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 10px;
+    margin-top: 0px;
+    
+}
+.navButton2 {  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white;
+    font-size: larger;
+    border-radius: 50px; /* Oval şekil için border-radius */
+    padding: 10px 30px; /* Boşluklar */
+    margin-right: 10px;
+   
+}
+nav ul {
+    float: right; /* Navbarı sağa yasla */
+  }
+  
+  nav ul li {
+    margin-left: 10px; /* navbar öğeleri arasındaki boşluğu ayarla */
+    margin-top: -100px; /*navbar ögelerinin yukarıdan mesagesi*/
+  }
+  .biziKesfet{
+    position: absolute; /* Mutlak konumlandırma */
+    margin-top: 97px;
+    margin-left: 200px;
+    color: rgb(12, 74, 141);
+    background-color: #72b2d2;
+    border-radius: 200px;
+    font-weight: bolder;
+    font-size: 24px;
+    width: 150px; /* Genişlik */
+    height: 40px; /* Yükseklik*/
+    display: flex;
+    justify-content: center; /* Yatayda merkezlemek için */
+    align-items: center; /* Dikeyde merkezlemek için */
+
+
+  }
+  .basla{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 380px;
+    color: rgb(142, 41, 142);
+    font-size: 24px;
+    font-weight: bolder;
+
+  }
+  .text
+  {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-left: 200px;
+    font-weight: bolder;
+
+  }
+  .text2
+  {
+    position: absolute;
+    color: purple;
+    font-size: 30px;
+    margin-top: 400px;
+    margin-left: 200px;
+  }
+  .oneri{
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 23px;
+    margin-top: 500px;
+    margin-left: 200px;
+    border-radius: 200px;
+    font-weight: bolder;
+    height: 46px;
+    width: 260px;
+    display: flex;
+    justify-content: center; /* Yatayda merkezlemek için */
+    align-items: center; /* Dikeyde merkezlemek için */
+  }
+  .img1{
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    margin-top:110px;
+    margin-left: 1000px;
+  }
+  .text3{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center; /* Yatayda merkezlemek için */
+    font-size: 45px;
+    margin-top: 850px;
+    left: 30%;
+    text-align: center;
+
+    font-weight: bolder;
+  }
+  .text4{
+    position: absolute;
+    color: purple;
+    font-size: 30px;
+    margin-top: 950px;
+    margin-left: 100px;
+    text-align: center;
+
+  }
+  .text5{
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    margin-top: 1200px;
+    font-weight: bolder;
+    left: 37%;
+    text-align: center;
+  }
+  .text6{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-top: 1300px;
+    margin-left: 200px;
+  }
+  .text7{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-top:1300px;
+    margin-left:600px;
+  }
+  .text8{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-top:1300px;
+    margin-left: 1000px;
+  }
+  .text9{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    margin-top:1400px;
+    margin-left: 10px;
+    left: 37%;
+    text-align: center;  
+  }
+  text10{
+    position: absolute;
+    color:white;
+    font-size: 20;
+    margin-top: 1300;
+    margin-left: 10;
+  }

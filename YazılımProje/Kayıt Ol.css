@@ -1,0 +1,47 @@
+* {
+    background-color: rgb(0, 0, 0);
+  }
+  nav {
+  background-color: #000000;
+}
+li {
+  display: inline-block;
+  color: white;
+
+}
+a:hover {
+  color: #d71092;
+}
+.navButton {  
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 10px;
+    margin-top: 0px;
+    
+}
+.navButton2 {  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white;
+    font-size: larger;
+    border-radius: 50px; /* Oval şekil için border-radius */
+    padding: 10px 30px; /* Boşluklar */
+    margin-right: 10px;
+
+    
+}
+nav ul {
+    float: right; /* Navbar'ı sağa yasla */
+  }
+  
+  nav ul li {
+    margin-left: 10px; /* Navbar öğeleri arasındaki boşluğu ayarla */
+    margin-top: -100px; /*navbar ögelerinin yukarıdan mesagesi*/
+  }
+  p{
+    color:white;
+    margin-top: 200px;
+    margin-left: 600px;
+    font-size: 40px;
+  }

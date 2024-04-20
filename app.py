@@ -6,20 +6,25 @@ movies_list = pickle.load(open("movies_list.pkl", 'rb'))
 similarity = pickle.load(open("similarity_list.pkl", 'rb'))
 movies_title_list = movies_list['title'].values
 
+headers = {
+    "accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ODE0OTI0MTg5ZmY5Y2Y1MjA5N2ZlYzQxYTkxMGI4YiIsInN1YiI6IjY2MWJmYjFlOWEzYzQ5MDE2Mjk0MTA1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Si7zMclLURAiin0ulKcWnpk1I1pF-yKF_tF6qiHUXNo"
+}
+
 st.header("Movie Recommender System")
 selected_value = st.selectbox("Select movie from dropdown", movies_title_list)
 
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=6814924189ff9cf52097fec41a910b8b".format(movie_id)
-    data = requests.get(url)
+    url = "https://api.themoviedb.org/3/movie/{}".format(movie_id)
+    data = requests.get(url, headers=headers)
     data=data.json()
     path = data['poster_path']
     poster_path = "https://image.tmdb.org/t/p/w500"+ path
     return poster_path
 
 def get_overview(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=6814924189ff9cf52097fec41a910b8b".format(movie_id)
-    data = requests.get(url)
+    url = "https://api.themoviedb.org/3/movie/{}".format(movie_id)
+    data = requests.get(url, headers=headers)
     data=data.json()
     overview = data['overview']
     return overview

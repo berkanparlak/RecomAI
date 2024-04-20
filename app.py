@@ -8,7 +8,7 @@ movies_title_list = movies_list['title'].values
 
 headers = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ODE0OTI0MTg5ZmY5Y2Y1MjA5N2ZlYzQxYTkxMGI4YiIsInN1YiI6IjY2MWJmYjFlOWEzYzQ5MDE2Mjk0MTA1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Si7zMclLURAiin0ulKcWnpk1I1pF-yKF_tF6qiHUXNo"
+    "Authorization": "Bearer ***YOUR_ACCESS_TOKEN***"
 }
 
 st.header("Movie Recommender System")

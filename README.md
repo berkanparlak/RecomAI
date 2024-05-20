@@ -49,7 +49,9 @@ Görevi: Projenin web geliştirme kısmına destek verir. Projenin veritabanı k
 
 Yapay Zeka ve Makine Öğrenmesi:
 Programlama Dili: Python
+
 Kütüphaneler: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, TMDB-API, Pickle, Streamlit, Requests ve Spotipy
 
 Web Geliştirme ve Veri Tabanı:
+
 Programlama Dilleri : HTML, CSS, JavaScript, MongoDB

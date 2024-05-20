@@ -1,20 +1,20 @@
 # RecomAI
 RecomAI yapay zeka ile film ve müzik öneri websitesi.
-Projenin Amacı:
+# Projenin Amacı:
 
   Proje, kullanıcıların geçmiş film ve müzik tercihlerine dayanarak benzer tarzdaki
 içerikleri önerir ve onlara yeni deneyimler sunar. Bu, kullanıcıların keyif aldığı
 içerikleri doğru bir şekilde keşfetmelerini sağlayarak, eğlence deneyimlerini
 zenginleştirir ve internette gereksiz zaman harcamalarını önler.
 
-Projenin Hedefi:
+# Projenin Hedefi:
 
   Projenin en büyük hedeflerinden biri insanların internette film ve müzik aradıkları
 süreyi kısaltarak onlara zevkleri doğrultusunda eşsiz öneriler sunmak. Proje, daha
 fazla kullanıcıya ulaşarak geniş kitlelere hitap eder. Bu sayede global bir web sitesi
 olmayı hedefler.
 
-Takım Üyeleri:
+# Takım Üyeleri:
 İlhan Emre Adak
 Berkan Parlak
 Şevval Yavuz
@@ -22,14 +22,11 @@ Berkan Parlak
 Haticenur Yalman
 
 
-Takım Üye Yetkinlikleri ve Görev Dağılımları:
+# Takım Üye Yetkinlikleri ve Görev Dağılımları:
 
 İlhan Emre Adak:
 Yetkinlikleri: Yapay zeka ve makine öğrenmesi algoritmaları, veri seti oluşturma, veri analitiği, model eğitimi ve değerlendirme, Python programlama API'ler ve makine öğrenmesi, doğal dil işleme kütüphaneleri.
 Görevi: Yapay zeka kısmından sorumlu. RecomAI öneri sisteminde kullanıcıların izlediği filmler veya sevdiği müzikler üzerinden önerilerde bulunmasını sağlayan yapay zeka modelini geliştirir ve eğitir.
-
-
-
 
 Haticenur Yalman:
 
@@ -48,7 +45,7 @@ Berkan Parlak:
 Yetkinlikleri: Veri tabanı yönetimi, MongoDB veri tabanları, backend programlama, web geliştirme
 Görevi: Projenin web geliştirme kısmına destek verir. Projenin veritabanı kısmından sorumlu. Berkan, verilerin güvenli bir şekilde depolanması, işlenmesi ve yönetilmesi görevlerini üstlenir.
 
-Kullanılacak Yazılım ve Donanım Teknolojileri:
+# Kullanılacak Yazılım ve Donanım Teknolojileri:
 
 Yapay Zeka ve Makine Öğrenmesi:
 Programlama Dili: Python

@@ -1,5 +1,6 @@
 # RecomAI
 RecomAI yapay zeka ile film ve müzik öneri websitesi.
+
 # Projenin Amacı:
 
   Proje, kullanıcıların geçmiş film ve müzik tercihlerine dayanarak benzer tarzdaki

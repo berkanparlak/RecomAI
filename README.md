@@ -17,9 +17,13 @@ olmayı hedefler.
 
 # Takım Üyeleri:
 İlhan Emre Adak
+
 Berkan Parlak
+
 Şevval Yavuz
+
 Çiğdem Avcı
+
 Haticenur Yalman
 
 

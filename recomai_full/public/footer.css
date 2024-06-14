@@ -1,0 +1,96 @@
+/* Genel Sayfa Stilleri */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.content {
+    min-height: calc(100vh - 60px); /* Sayfa içeriğinin minimum yüksekliği, footer'ın yüksekliğine göre ayarlanır */
+    padding: 20px;
+}
+
+/* Footer Styles */
+.bilgilendirme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bilgilendirme .sol, .bilgilendirme .orta, .bilgilendirme .sag {
+    flex: 1;
+}
+
+.bilgilendirme .orta {
+    text-align: center;
+}
+
+.bilgilendirme .sol {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.bilgilendirme .sag {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+.bilgilendirme .genel, .bilgilendirme .sozlesmeler {
+    text-align: left;
+    margin: 0 20px;
+}
+
+.bilgilendirme .genel h4, .bilgilendirme .sozlesmeler h4 {
+    color: #ffffff; /* Başlıkları beyaz yap */
+    margin-bottom: 5px;
+}
+
+.bilgilendirme .genel p, .bilgilendirme .sozlesmeler p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 2px 0;
+}
+
+.bilgilendirme .genel p a, .bilgilendirme .sozlesmeler p a {
+    color: #CB6CE6;
+    text-decoration: none;
+}
+
+.bilgilendirme .genel p a:hover, .bilgilendirme .sozlesmeler p a:hover {
+    text-decoration: underline;
+}
+
+.bilgilendirme .sol p {
+    font-size: 1.5rem;
+    color: #CB6CE6; /* "©️ RecomAI 2024" metnini mor yap */
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .bilgilendirme {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bilgilendirme .sol, .bilgilendirme .orta, .bilgilendirme .sag {
+        flex: none;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .bilgilendirme .sag {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bilgilendirme .genel, .bilgilendirme .sozlesmeler {
+        margin: 0;
+    }
+}

@@ -1,0 +1,78 @@
+/* Genel stiller */
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  h1, h4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  h1 {
+    margin-top: 100px;
+  }
+  
+  h4 {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: purple;
+  }
+  
+  a:hover {
+    color: rgb(198, 25, 192);
+  }
+  
+  /* Kayıt formu stilleri */
+  .kayit_ul {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .kayit_li {
+    display: block; /* Elemanları alt alta sıralamak için */
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .kayit_li input[type="email"],
+  .kayit_li input[type="text"],
+  .kayit_li input[type="password"] {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(198, 25, 192); /* Kenar çizgisi */
+    border-radius: 10px; /* Kenarları yuvarla */
+    color: white;
+  }
+  
+  .kayit_li input[type="email"]::placeholder,
+  .kayit_li input[type="text"]::placeholder,
+  .kayit_li input[type="password"]::placeholder {
+    color: rgb(112, 112, 136);
+  }
+  
+  .button_li {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(198, 25, 192);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .div_baslik1 {
+    margin: 0px;
+    padding: 25px;
+  }

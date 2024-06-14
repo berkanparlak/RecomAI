@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "biziKesfet basla";
+    grid-template-columns: 15vw 10vw;
+    /* İki sütunlu bir grid oluşturduk */
+    gap: 0;
+    /* Elementler arasındaki boşluk (ekran genişliğine göre) */
+}
+
+.biziKesfet {
+    grid-area: biziKesfet;
+    background-color: #72b2d2;
+    /* Buton arka plan rengi */
+    border-radius: 200px;
+    /* Kenar yuvarlama */
+    font-weight: bolder;
+    /* Kalın yazı tipi */
+    font-size: 2vw;
+    /* Yazı boyutu (ekran genişliğine göre) */
+    width: 15vw;
+    /* Buton genişliği (ekran genişliğine göre) */
+    height: 5vw;
+    /* Buton yüksekliği (ekran genişliğine göre) */
+    display: flex;
+    justify-content: center;
+    /* Yatay ortalama */
+    align-items: center;
+    /* Dikey ortalama */
+    color: rgb(12, 74, 141);
+    /* Yazı rengi */
+    text-decoration: none;
+    /* Yazının altını çizen şeyi kaldır */
+    margin-top: 2vw;
+    /* Üst boşluk (ekran genişliğine göre) */
+    min-top: 20vw;
+}
+
+.basla {
+    grid-area: basla;
+    background-color: #000000;
+    /* Arka plan rengi (gerekliyse) */
+    border-radius: 200px;
+    /* Kenar yuvarlama */
+    font-weight: bolder;
+    /* Kalın yazı tipi */
+    font-size: 2vw;
+    /* Yazı boyutu (ekran genişliğine göre) */
+    width: 10vw;
+    /* Buton genişliği (ekran genişliğine göre) */
+    height: 5vw;
+    /* Buton yüksekliği (ekran genişliğine göre) */
+    display: flex;
+    justify-content: center;
+    /* Yatay ortalama */
+    align-items: center;
+    /* Dikey ortalama */
+    color: #CB6CE6;
+    /* Yazı rengi */
+    text-decoration: none;
+    /* Yazının altını çizen şeyi kaldır */
+    margin-top: 2vw;
+    /* Üst boşluk (ekran genişliğine göre) */
+    min-top: 20vw;
+}
+
+.button-container {
+    display: grid;
+    grid-template-areas: "biziKesfet basla"/* Butonlar yanyana */
+    "text img1" "text2 img1" "oneri img1";
+    grid-template-columns: auto auto;
+    /* Sütunlar ayarlandı */
+    gap: 0;
+    /* Butonlar arasında boşluk (ekran genişliğine göre) */
+}
+
+.text {
+    grid-area: text;
+    font-size: 65px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Heading Now', sans-serif;
+}
+
+.text2 {
+    grid-area: text2;
+    font-size: 30px;
+    color: #CB6CE6;
+    ;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.oneri {
+    grid-area: oneri;
+    background-color: rgba(255, 255, 255, 0.745);
+    border-radius: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.img1 {
+    grid-area: img1;
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    justify-self: center;
+}
+
+.text3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 200px;
+}
+
+.text4 {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #CB6CE6;
+    ;
+}
+
+.text5 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+.bilgilendirme {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.c {
+    font-size: 1.5vw;
+}
+
+
+/* Önceki CSS kodlarınız burada */
+
+.sun {
+    margin-top: 50px;
+}
+
+.section-title {
+    font-family: 'Heading Now', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 30px;
+    /* Sol kenar için 20 piksel boşluk */
+}
+
+.section-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    color: #CB6CE6;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.feature-item {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    margin-left: 30px;
+}
+
+.feature-item h3 {
+    font-family: 'Heading Now', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    color: #CB6CE6;
+}
+
+.statistics {
+    font-family: 'Heading Now', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #CB6CE6;
+}
+
+.altstat {
+    font-family: 'Heading Now', sans-serif;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-item {
+        margin-bottom: 20px;
+    }
+}
+
+.genel,
+.sozlesmeler {
+    font-size: 1vw;
+    color: #CB6CE6;
+}
+
+@media (max-width: 768px) {
+    .navImg {
+        width: 100px;
+    }
+    .navButton,
+    .navButton2 {
+        font-size: small;
+        padding: 5px 10px;
+    }
+    .navbar {
+        padding: 5px 0;
+    }
+    .button-container {
+        grid-template-areas: "biziKesfet" "basla" "text" "img1" "text2" "oneri";
+        grid-template-columns: 1fr;
+    }
+    .text {
+        font-size: 50px;
+    }
+    .text2,
+    .text3,
+    .text4,
+    .text5 {
+        font-size: 20px;
+    }
+    .stats {
+        grid-template-columns: 1fr;
+    }
+    .bilgilendirme {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .c,
+    .genel,
+    .sozlesmeler {
+        font-size: 2vw;
+    }
+    .img1 {
+        width: 100%;
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,146 @@
+/* Sayfa arka planını siyah, metin rengini beyaz yapar ve yazı tipini belirler */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start; /* Sol tarafa yaslamak için değiştirildi */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-left: 100px; /* Soldan biraz boşluk ekleyebiliriz */
+}
+
+/* Ana konteynerin stilini belirler */
+.container {
+    display: grid;
+    grid-template-columns: 400px auto; /* Genişlik artırıldı */
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Profil fotoğrafı bölümünün stilini belirler */
+.profile-picture-section {
+    text-align: center;
+}
+
+/* Profil fotoğrafı için boş bir div oluşturur */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+/* Profil fotoğrafını değiştirme butonunun stilini belirler */
+.change-picture-button {
+    background-color: #CB6CE6;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 25px; /* Butonların boyutunu artırır */
+    border-radius: 25px; /* Kenarları yuvarlak yapar */
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+    font-size: 18px; /* Yazı tipini büyütür */
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Butona fare ile gelindiğinde rengini değiştirir */
+.change-picture-button:hover {
+    background-color: #CB6CE6;
+}
+
+/* Profil bilgileri bölümünün stilini belirler */
+.profile-info-section {
+    text-align: left;
+}
+
+/* Bilgiler başlığının stilini belirler */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Heading Now', sans-serif;
+}
+
+/* Formun stilini belirler */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tüm input alanlarının stilini belirler */
+input {
+    width: 500px; /* Genişliği artırır */
+    max-width: 100%; /* Ekran genişliğine göre maksimum genişlik belirler */
+    margin: 10px 0;
+    padding: 15px; /* İç boşluğu artırır */
+    border-radius: 25px;  /* Kenarları yuvarlak yapar */
+    border: 2px solid #CB6CE6; /* Pembe kenarlık ekler */
+    font-size: 18px; /* Yazı tipini büyütür */
+    background-color: #333;
+    color: #CB6CE6;
+    padding-left: 15px;
+}
+
+/* Kullanıcı adı giriş alanının yüksekliğini artırır */
+.input-text.user-name {
+    height: 60px; /* Yüksekliği burada belirleyebilirsiniz */
+}
+
+/* Butonların stilini belirler */
+.input-submit, .delete-account {
+    background-color: #CB6CE6;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 25px; /* Butonların boyutunu artırır */
+    border-radius: 25px; /* Kenarları yuvarlak yapar */
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+    font-size: 18px; /* Yazı tipini büyütür */
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Butonlara fare ile gelindiğinde rengini değiştirir */
+.input-submit:hover, .delete-account:hover {
+    background-color: #CB6CE6;
+}
+
+/* Buton grubunun stilini belirler */
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Küçük ekranlar için medya sorguları */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 50px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .change-picture-button, .input-submit, .delete-account {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button-group button {
+        margin: 5px 0;
+    }
+}

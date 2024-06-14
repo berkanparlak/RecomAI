@@ -1,0 +1,108 @@
+/* Stil dosyanızda özelleştirmeler */
+body {
+    background-color: black !important; /* Arka plan rengini siyah yap */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.MovieAI{
+    color: #6a11cb;
+    font-size: 36px; /* H1 başlığının font boyutunu ayarla */
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    padding-top: 60px;
+}
+
+/* Seçim çubuğu stilleri */
+#movies {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid rgb(198, 25, 192); /* Çerçeve rengi */
+    border-radius: 10px; /* Kenar yuvarlaklığı */
+    font-size: 16px;
+    color: black;
+    background-color: white; /* Seçim kutusu arka plan rengi */
+    appearance: none; /* Tarayıcı varsayılan stilleri devre dışı bırakır */
+    -webkit-appearance: none; /* Safari için */
+    -moz-appearance: none; /* Firefox için */
+    cursor: pointer;
+    outline: none; /* Odaklandığında kenar çizgisi görünmez */
+}
+
+/* Seçim kutusu stilini yeniden düzenleme */
+#movies option {
+    color: black;
+    background-color: white;
+}
+
+/* Butonun hizalamasını ve boşlukları ayarlama */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgb(198,25,192), #1c57bd);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #4984eb, rgb(138, 16, 134));
+}
+
+/* Kart gruplarının stilleri */
+.card-group {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Kartların stilleri */
+.card {
+    width: 250px;
+    margin: 10px;
+    border: 2px solid rgb(198, 25, 192); /* Çerçeve rengi */
+    border-radius: 10px; /* Kenar yuvarlaklığı */
+    background-color: white; /* Kart arka plan rengi */
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: black; /* Kart başlığı rengi */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: black; /* Kart metni rengi */
+    font-size: 14px;
+}
+
+.card-footer {
+    background-color: white; /* Kart altbilgi arka plan rengi */
+    padding: 10px;
+}
+
+.text-muted {
+    color: black; /* Mat renk metni rengi */
+    font-size: 12px;
+}
+
+/* Renklendirme */
+label {
+    color: #6a11cb; /* Mor renk */
+}

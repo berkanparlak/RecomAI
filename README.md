@@ -58,5 +58,5 @@ Programlama Dili: Python
 Kütüphaneler: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, TMDB-API, Pickle, Streamlit, Requests, Flask ve Spotipy
 
 Web Geliştirme ve Veri Tabanı:
-
+Program : XAMPP
 Programlama Dilleri : HTML, CSS, JavaScript, MySQL, Python, Streamlit, Flask, Base64, CORS

@@ -15,7 +15,7 @@ movies_title_list = movies_list['title'].values
 
 headers = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ODE0OTI0MTg5ZmY5Y2Y1MjA5N2ZlYzQxYTkxMGI4YiIsInN1YiI6IjY2MWJmYjFlOWEzYzQ5MDE2Mjk0MTA1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Si7zMclLURAiin0ulKcWnpk1I1pF-yKF_tF6qiHUXNo"
+    "Authorization": "YOUR_API"
 }
 
 def get_movies_as_json():
@@ -70,8 +70,8 @@ def get_recommendation(recommend_id):
     return jsonify(recommendation_data)
 
 
-CLIENT_ID = '6dec1296351c4943a3ae6048db531432'
-CLIENT_SECRET = '00359a52ada142ce8ef5c9d7ceae34a9'
+CLIENT_ID = 'xxx'
+CLIENT_SECRET = 'xxx'
 
 def get_token():
     token_url = 'https://accounts.spotify.com/api/token'

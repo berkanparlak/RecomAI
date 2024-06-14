@@ -14,7 +14,7 @@
         <div class="button-container">
             <div class="grid-container">
                 <a href="discovers_us.php" class="biziKesfet">Bizi Keşfet</a>
-                <a href="discovers_us.php" class="basla">Başla</a>
+                <a href="choose_ai.php" class="basla">Başla</a>
               </div>
             <p class="text">Eğlencenizi<br>Özelleştirin ve<br>Öneriler Alın</p>
             <p class="text2">RecomAI'nin akıllı seçimleriyle kişiye özel<br> film ve müzik önerileri dünyasına dalın</p>

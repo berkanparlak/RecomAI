@@ -34,7 +34,6 @@ Yetkinlikleri: Yapay zeka ve makine öğrenmesi algoritmaları, veri seti oluşt
 Görevi: Yapay zeka kısmından sorumlu. RecomAI öneri sisteminde kullanıcıların izlediği filmler veya sevdiği müzikler üzerinden önerilerde bulunmasını sağlayan yapay zeka modelini geliştirir ve eğitir.
 
 Haticenur Yalman:
-
 Yetkinlikleri: Web geliştirme, frontend ve backend teknolojileri, iletişim ve proje yönetimi.
 Görevi: Projenin iletişim sorumlusu ve aynı zamanda web sitesinin oluşturulmasında görev alır. Hatice, ekip içi koordinasyonu sağlar ve proje dışı iletişimleri yönetir.
 
